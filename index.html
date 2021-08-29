@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+
+  <html>
+    <head>
+      <title>.: Jobs NET :.</title>
+      <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+         
+       <h1>Alô astronauta!<br>
+        Procurando um novo job para decolar a carreira?<br>
+        Faça agora seu cadastro em nosso banco de talentos!</h1>
+
+        <fieldset>
+
+          <h3>DADOS PESSOAIS</h3>
+
+            <h4>
+              <form>
+                
+                <div>
+                  <label for="nome">Nome Completo*</label>
+                  <input id="nome" type="text" required>   
+                                       
+                  <label for="cargo">Cargo Pretendido*</label>
+                  <input id="cargo" type="text" required>
+                </div>
+
+                <div>                                         
+                  <label for="datanasc">Data de Nascimento*</label>
+                  <input id="datanasc" type="date" required>
+                               
+                  <label for="estadocivil">Estado Civil</label>
+                  <select id="estadocivil" name="estadocivil">
+                  <option selected disabled value="">Selecione
+                  <option value="casado">Casado(a)</option>
+                  <option value="solteiro">Solteiro(a)</option>
+                  <option value="divorciado">Divorciado(a)</option>
+                  </select>
+                
+                  <label for="sexo">Sexo</label>
+                  <select id"sexo" name="sexo">
+                  <option selected disabled value="">Selecione
+                  <option value="feminino">Feminino</option>
+                  <option value="masculino">Masculino</option>
+                  <option value="outro">Outro</option>
+                  <option value="naoInformar">Prefiro não informar</option>
+                  </select>
+                </div>
+                                  
+                <div>    
+
+                  <label for="cep">CEP*</label>
+                  <input id="cep" type="text" required>
+                
+                  <label for="endereco">Endereço*</label>
+                  <input id="endereco" type="text" required placeholder="Digite aqui o nome da rua, nº e complementos">
+                </div>
+
+                <div>          
+                  <label for="bairro"><stong>Bairro*</stong></label>
+                  <input id="bairro" type="text" required>
+                                  
+                  <label for="cidade">Cidade*</label>
+                  <input id="cidade" type="text" required>
+                </div>
+
+                         
+                <div>
+                  <label for="telefoneUm">Telefone Fixo 1</label>
+                  <input id="telefoneUm" type="number">
+                
+                  <label for="telefoneDois">Telefone Fixo 2</label>
+                  <input id="telefoneDois" type="numer">
+                </div>
+                                  
+                <div>
+                  <label for="celular">Celular*</label>
+                  <input id="celular" type="number" required>
+                
+                  <label for="contato">Contato</label>
+                  <input id="contato" type="text">
+              
+                  <label for="email">E-mail*</label>
+                  <input id="email" type="email" size= required placeholder="seunome@exemplo.com.br">
+                </div>   
+
+              </h4> 
+
+          <h3>DOCUMENTOS</h3>
+
+            <h4>  
+
+              <form>
+
+                <div>
+                  <label for="identidade">Identidade</label>
+                  <input id="identidade" type="text">
+                
+                  <label for="cpf">CPF*</label>
+                  <input id="cpf" type="text" required>
+                </div>
+                
+                <div>
+                  <label for="veiculo">Possui veículo?</label>
+                  
+                  <select name="veiculo">
+                  <option selected disabled value="">Selecione
+                  <option value="sim">Sim</option>
+                  <option value="nao">Não</option>
+                  </select>
+                
+                  <label for="habilitacao">Habilitação</label>
+
+                  <select name="habilitacao">
+                  <option selected disabled value="">Selecione
+                  <option value="cata">A</option>
+                  <option value="catb">B</option>
+                  <option value="catc">C</option>
+                  <option value="catd">D</option>
+                  <option value="cate">E</option>
+                  </select>
+                </div>
+
+            </form>
+
+            </h4>
+            <div>
+            <button type="button" onclick="validaCPF" id="botaoenviar">Decolar!</button>
+            </div>
+
+            <div id=creditoimagem>
+            <a href="http://www.freepik.com">Imagem do background designed by Freepik</a>
+            </div>
+          
+    </body>
+  </html>

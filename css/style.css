@@ -1,0 +1,164 @@
+body{
+  background-image: url(../img/espacoroxo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:15px;
+  font-weight: 900;
+  color: white;
+  line-height:40px;
+  max-width:100%;
+  margin: 0 auto;
+  margin-left: 5%;
+  margin-right: 35%;
+  }
+
+  fieldset{
+    border: transparent;
+  }
+
+  #nome{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 25%;
+    display: inline;
+  }
+
+  #cargo{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 25%;
+    display: inline;
+  }
+
+  #datanasc{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 14%;
+    display: inline;
+  }
+
+  #estadocivil{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 13%;
+    display: inline;
+  }
+
+  #sexo{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 8%;
+    display: inline;
+  }
+
+  #cep{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 20%;
+    display: inline;
+  }
+
+  #endereco{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 51%;
+    display: inline;
+  }
+
+  #bairro{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 35%;
+    display: inline;
+  }
+
+  #cidade{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 35%;
+    display: inline;
+  }
+
+   #telefoneUm{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 26%;
+    display: inline;
+  }
+
+  #telefoneDois{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 26%;
+    display: inline;
+  }
+
+  #celular{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 20%;
+    display: inline;
+  }
+
+  #contato{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 15%;
+    display: inline;
+  }
+
+  #email{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 23%;
+    display: inline;
+  }
+
+  #identidade{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 20%;
+    display: inline;
+  }
+
+  #cpf{
+    height: 1,5em;
+    box-shadow: 2px 2px 2px black;
+    width: 20%;
+    display: inline;
+  }
+  
+  h1{
+    color:#f0ec1a;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight: 2000;
+    text-align: left;
+    margin-top: 50px;
+    }
+
+  h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: 900;
+    font-stretch: expanded;
+    text-align: left;
+    line-height:40px;
+    }
+
+    h4{
+    align-items: left;
+    }
+
+    button{
+    background:#b845ee;
+    color: white;
+    border: 2px solid black;
+    padding: 2px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
